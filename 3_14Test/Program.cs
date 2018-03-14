@@ -17,6 +17,7 @@ namespace _3_14Test
                 Console.WriteLine((parsed.ToString("yyyy-MM-dd")));
             }
             Console.ReadLine();*/
+
             string sDate = "20100504";
             DateTime NewDate = DateTime.ParseExact(sDate, "yyyyMMdd", null, System.Globalization.DateTimeStyles.AllowWhiteSpaces);
             Console.WriteLine(NewDate.ToString("yyyy-MM-dd"));
